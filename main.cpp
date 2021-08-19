@@ -14,8 +14,6 @@ struct nodo{ //crear una estructura para generar un nodo
 };
 typedef struct nodo *lista_doble; //Refenenciar y llamar de forma simpla lista
 
-
-
 void menu(){//metodo para generar un menu de funcionalidades
     cout << "\n\t\tDouble Linked List\n\n";
           cout << "1. Insert from Left" << endl;
@@ -26,8 +24,6 @@ void menu(){//metodo para generar un menu de funcionalidades
           cout << "6. Search by Right" << endl;
           cout << "7. Exit" << endl;
           cout << "\n Enter an option:";
-
-
 }
 void insertarizq(lista_doble &cabeza,lista_doble &ultimo,int valor){//Metodo inesertar por izquierda
     lista_doble nodo1;//creacion del nodo
